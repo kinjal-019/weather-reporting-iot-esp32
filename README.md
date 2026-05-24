@@ -94,16 +94,6 @@ Sensor readings are sent through HTTP POST requests in JSON format using Wi-Fi c
 
 ---
 
-## Sample Data
-
-| Date | Time | Temperature | Humidity | Rain Status |
-|---|---|---|---|---|
-| 20-04-2026 | 10:05 AM | 27.0°C | 41.2% | Yes |
-| 20-04-2026 | 01:12 PM | 26.0°C | 41.3% | Yes |
-| 21-04-2026 | 09:44 AM | 27.2°C | 40.3% | No |
-
----
-
 ## Results
 
 - Accurate real-time monitoring achieved
@@ -147,19 +137,18 @@ Possible future enhancements include:
 weather-reporting-iot-esp32/
 │
 ├── code/
-│   └── weather_monitoring.ino
 │
 ├── images/
-│   ├── circuit-diagram.png
-│   ├── dashboard.png
-│   ├── serial-monitor.png
-│   └── block-diagram.png
+│   ├── circuit diagram.png
+│   ├── flow diagram.png
+│   ├── serial monitor.jpeg
+│   └── live reading.mp4
 │
 ├── docs/
 │   └── project-report.pdf
 │
 ├── README.md
-└── requirements.txt
+└─ code
 ```
 
 ---
